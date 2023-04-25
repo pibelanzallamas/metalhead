@@ -1,4 +1,2 @@
 # metalhead
-screens
-playslist
-my favourite things on a page
+screens from my favorite games

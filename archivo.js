@@ -1,4 +1,3 @@
 mostrar(){
 
-    alert("HAPPY")
 }

@@ -26,3 +26,5 @@ screen
 screen
 screen
 screen
+
+heigh: 100vh view height la altura de la vista de esa pantalla

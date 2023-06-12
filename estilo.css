@@ -1,34 +1,28 @@
-@font-face{
-
-    font-family: gothic;
-    src: url("Blacklettersh.ttf");
-
+@font-face {
+  font-family: gothic;
+  src: url("Blacklettersh.ttf");
 }
 
-body{
-
-    background-color:rgb(0, 0, 0);
-    text-align: center;
-
+body {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
 }
 
-h1{
-
-    color: rgba(239, 11, 11, 0.974);
-    align-items: center;
-    font-family: gothic;
-    font-size: 100px;
-
+h1 {
+  color: rgba(239, 11, 11, 0.974);
+  align-items: center;
+  font-family: gothic;
+  font-size: 100px;
 }
 
-h3{
-    font-family: gothic;
-    font-size: 24px;
-    color: red;
+h3 {
+  font-family: gothic;
+  font-size: 24px;
+  color: red;
 }
 
-h2{
-    font-family: gothic;
-    font-size: 46px;
-    color: red;
+h2 {
+  font-family: gothic;
+  font-size: 40px;
+  color: red;
 }

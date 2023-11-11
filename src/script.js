@@ -1,3 +1,3 @@
 function mostrar() {
-  alert("realizado con amor by pibelanzallamas💀");
+  alert("realizado by pibelanzallamas💀");
 }

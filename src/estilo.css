@@ -3,33 +3,43 @@
   src: url("font/Blacklettersh.ttf");
 }
 
-body {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(42, 41, 41);
   color: rgba(239, 11, 11, 0.974);
-  background-color: rgb(0, 0, 0);
+  font-family: gothic;
   text-align: center;
 }
 
-h1 {
-  align-items: center;
-  font-family: gothic;
-  font-size: 4rem;
+.titulo {
+  font-size: 3rem;
+  padding: 1rem;
+  padding-bottom: 0.3rem;
 }
 
-h2 {
-  font-family: gothic;
-  font-size: 2rem;
+.copete {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
 }
 
-img {
-  width: 30vw;
+.contenido {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  padding: 1rem;
+}
+
+img,
+.video,
+.playlist {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
 }
 
 .video {
-  width: 90vw;
-  height: "315";
-}
-
-button {
-  display: block;
-  text-align: center;
+  width: 85%;
+  min-height: 300px;
 }

@@ -47,6 +47,10 @@ img,
   margin-bottom: 1rem;
 }
 
+.emojis {
+  font-size: 1.5rem;
+}
+
 @media (min-width: 600px) {
   * {
     display: flex;

@@ -43,8 +43,8 @@ img,
   height: auto;
   margin-bottom: 1rem;
   height: 220px;
-  border: none !important;
-  outline: none !important;
+  border: none;
+  border-radius: 30px;
 }
 
 .creditos,

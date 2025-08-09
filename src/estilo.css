@@ -3,6 +3,11 @@
   src: url("font/Blacklettersh.ttf");
 }
 
+@font-face {
+  font-family: chomsky;
+  src: url("font/Chomsky.otf")
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -36,6 +41,7 @@ img,
   width: 100%;
   height: auto;
   margin-bottom: 1rem;
+  border-radius: 30px;
 }
 
 .video {
@@ -50,6 +56,11 @@ img,
 .creditos,
 .playlist {
   margin-bottom: 1rem;
+}
+
+.firma{
+  font-family: chomsky;
+  font-size: 1.2rem
 }
 
 .emojis {
@@ -80,5 +91,8 @@ img,
   }
   .emojis {
     font-size: 2rem;
+  }
+  .firma{
+    font-size: 1.5rem;
   }
 }

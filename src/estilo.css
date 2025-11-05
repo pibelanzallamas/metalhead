@@ -12,26 +12,28 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body{
   background-color: #111;
   color: rgba(239, 11, 11, 0.974);
-  font-family: gothic;
   text-align: center;
 }
 
 .titulo {
+  font-family: gothic;
   font-size: 3rem;
   padding: 1rem;
 }
 
 .copete {
+  font-family: gothic;
   font-size: 1.5rem;
   padding: 0 1rem;
   padding-bottom: 0.5rem; 
 }
 
 .contenido {
-  /* margin-left: 1.25rem; */
-  /* margin-right: 1.25rem; */
   padding: 1rem;
 }
 
@@ -39,20 +41,16 @@ img,
 .video {
   width: 100%;
   height: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
 }
 
 .video {
-  width: 100%;
-  height: auto;
-  margin-bottom: 1rem;
   height: 220px;
   border: none;
 }
 
-.creditos,
 .playlist {
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
 }
 
 .firma{
@@ -63,6 +61,17 @@ img,
 .emojis {
   font-size: 1.5rem;
 }
+
+ .spotify-container {
+      width: 100%;
+      max-width: 800px; /* Puedes ajustar este valor */
+      margin: 0 auto;
+  }
+  
+  .spotify-iframe {
+      border-radius: 0 !important; /* Esto elimina el border-radius */
+      border: none; /* Opcional: elimina cualquier borde */
+  }
 
 @media (min-width: 600px) {
   * {

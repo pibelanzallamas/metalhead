@@ -21,18 +21,17 @@
 .titulo {
   font-size: 3rem;
   padding: 1rem;
-  padding-bottom: 0.3rem;
 }
 
 .copete {
   font-size: 1.5rem;
-  padding: 0.5rem;
-  padding-bottom: 1rem;
+  padding: 0 1rem;
+  padding-bottom: 0.5rem; 
 }
 
 .contenido {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
+  /* margin-left: 1.25rem; */
+  /* margin-right: 1.25rem; */
   padding: 1rem;
 }
 

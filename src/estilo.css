@@ -45,7 +45,7 @@ img,
 }
 
 .video {
-  height: 220px;
+  height: 15rem;
   border: none;
 }
 
@@ -62,19 +62,12 @@ img,
   font-size: 1.5rem;
 }
 
- .spotify-container {
-      width: 100%;
-      max-width: 800px; /* Puedes ajustar este valor */
-      margin: 0 auto;
-  }
-  
-  .spotify-iframe {
-      border-radius: 0 !important; /* Esto elimina el border-radius */
-      border: none; /* Opcional: elimina cualquier borde */
-  }
+.playlist{
+  display: none;
+}
 
 @media (min-width: 600px) {
-  * {
+  body {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,18 +81,26 @@ img,
   }
   .copete {
     font-size: 2rem;
-    max-width: 80vw;
+    max-width: 70vw;
   }
   .contenido {
-    width: 40vw;
+    width: 60%;
   }
   .video {
-    height: 48vh;
+    height: 30vh;
   }
   .emojis {
     font-size: 2rem;
   }
   .firma{
     font-size: 1.5rem;
+  }
+}
+@media (min-width: 1000px) {
+  .contenido {
+    width: 50%;
+  }
+  .video {
+    height: 46;
   }
 }

@@ -98,9 +98,9 @@ img,
 }
 @media (min-width: 1000px) {
   .contenido {
-    width: 50%;
+    width: 45%;
   }
   .video {
-    height: 46;
+    height: 25rem;
   }
 }
